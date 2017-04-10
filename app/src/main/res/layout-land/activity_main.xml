@@ -5,22 +5,21 @@
     style="@style/LayoutMain"
     tools:context="com.example.android.footballscorekeeperapp.MainActivity">
 
-    <RelativeLayout
-        style="@style/RelativeLayTopMain">
+    <RelativeLayout style="@style/RelativeLayTopMain">
 
-        <EditText
-            android:id="@+id/TeamB_EditText"
+        <TextView
+            android:id="@+id/TeamB_TextView"
             style="@style/TeamBText"
-            android:hint="@string/team_two_name"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="133dp" />
+            android:layout_marginRight="133dp"
+            android:text="@string/team_two_name" />
 
-        <EditText
-            android:id="@+id/TeamA_EditText"
+        <TextView
+            android:id="@+id/TeamA_TextView"
             style="@style/TeamAText"
-            android:hint="@string/team_one_name"
             android:layout_alignParentLeft="true"
-            android:layout_marginLeft="126dp" />
+            android:layout_marginLeft="126dp"
+            android:text="@string/team_one_name" />
 
     </RelativeLayout>
 
@@ -42,8 +41,7 @@
 
     </LinearLayout>
 
-    <RelativeLayout
-        style="@style/RelativeLayBotMain">
+    <RelativeLayout style="@style/RelativeLayBotMain">
 
         <Button
             android:id="@+id/team_b_red"

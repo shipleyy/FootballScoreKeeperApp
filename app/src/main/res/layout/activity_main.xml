@@ -12,8 +12,8 @@
         <Button
             android:id="@+id/team_a_yellow"
             style="@style/YellowButton"
-            android:onClick="oneYellowCardForTeamA"
-            android:layout_margin="15dp"/>
+            android:layout_margin="15dp"
+            android:onClick="oneYellowCardForTeamA" />
 
         <Button
             android:id="@+id/team_a_red"
@@ -22,12 +22,12 @@
             android:layout_margin="15dp"
             android:onClick="oneRedCardForTeamA" />
 
-        <EditText
-            android:id="@+id/TeamA_EditText"
+        <TextView
+            android:id="@+id/TeamA_Text"
             style="@style/TeamAText"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
-            android:hint="@string/team_one_name"/>
+            android:text="@string/team_one_name" />
 
     </RelativeLayout>
 
@@ -42,8 +42,7 @@
         style="@style/Score"
         android:onClick="onePointForTeamB" />
 
-    <RelativeLayout
-        style="@style/RelativeLayBotMain">
+    <RelativeLayout style="@style/RelativeLayBotMain">
 
         <Button
             android:id="@+id/team_b_yellow"
@@ -65,10 +64,9 @@
 
     </RelativeLayout>
 
-    <EditText
-        android:id="@+id/TeamB_EditText"
+    <TextView
+        android:id="@+id/TeamB_TextView"
         style="@style/TeamBText"
-        android:hint="@string/team_two_name"
-        android:layout_below="@id/button"/>
+        android:text="@string/team_two_name" />
 
 </LinearLayout>

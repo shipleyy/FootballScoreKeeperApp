@@ -7,7 +7,7 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
-    <style name="LayoutMain" >
+    <style name="LayoutMain">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:orientation">vertical</item>
@@ -15,13 +15,13 @@
         <item name="android:weightSum">1</item>
     </style>
 
-    <style name="RelativeLayTopMain" >
+    <style name="RelativeLayTopMain">
         <item name="android:layout_width">fill_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
     </style>
 
-    <style name="RelativeLayBotMain" >
+    <style name="RelativeLayBotMain">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:gravity">center</item>
@@ -33,8 +33,7 @@
         <item name="android:layout_height">80dp</item>
         <item name="android:background">@color/yellowCard</item>
         <item name="android:textSize">42sp</item>
-        <item name="android:text"></item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
 
     <style name="RedButton">
@@ -42,11 +41,10 @@
         <item name="android:layout_height">80dp</item>
         <item name="android:background">#FF0000</item>
         <item name="android:textSize">42sp</item>
-        <item name="android:text"></item>
-        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
     </style>
 
-    <style name="Reset" >
+    <style name="Reset">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
@@ -56,26 +54,20 @@
         <item name="android:onClick">resetPoints</item>
     </style>
 
-    <style name="TeamAText" >
+    <style name="TeamAText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">22sp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:cursorVisible">false</item>
-        <item name="android:inputType">textCapWords</item>
-        <item name="android:textColorHint">@android:color/white</item>
     </style>
 
-    <style name="TeamBText" >
+    <style name="TeamBText">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:textSize">22sp</item>
         <item name="android:layout_gravity">center</item>
-        <item name="android:cursorVisible">false</item>
-        <item name="android:inputType">textCapWords</item>
-        <item name="android:textColorHint">@android:color/white</item>
     </style>
 
 
