@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/LayoutMain"
+    tools:context="com.example.android.footballscorekeeperapp.MainActivity">
+
+    <RelativeLayout
+        style="@style/RelativeLayTopMain">
+
+        <EditText
+            android:id="@+id/TeamB_EditText"
+            style="@style/TeamBText"
+            android:hint="@string/team_two_name"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="133dp" />
+
+        <EditText
+            android:id="@+id/TeamA_EditText"
+            style="@style/TeamAText"
+            android:hint="@string/team_one_name"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="126dp" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        style="@style/RelativeLayBotMain"
+        android:layout_marginBottom="50dp">
+
+        <Button
+            android:id="@+id/team_a_score"
+            style="@style/Score"
+            android:layout_weight="1"
+            android:onClick="onePointForTeamA" />
+
+        <Button
+            android:id="@+id/team_b_score"
+            style="@style/Score"
+            android:layout_weight="1"
+            android:onClick="onePointForTeamB" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        style="@style/RelativeLayBotMain">
+
+        <Button
+            android:id="@+id/team_b_red"
+            style="@style/RedButton"
+            android:layout_marginRight="30dp"
+            android:layout_toStartOf="@+id/team_b_yellow"
+            android:onClick="oneRedCardForTeamB" />
+
+        <Button
+            android:id="@+id/team_b_yellow"
+            style="@style/YellowButton"
+            android:onClick="oneYellowCardForTeamB" />
+
+        <Button
+            android:id="@+id/team_a_yellow"
+            style="@style/YellowButton"
+            android:layout_marginRight="50dp"
+            android:layout_toLeftOf="@+id/button"
+            android:onClick="oneYellowCardForTeamA" />
+
+        <Button
+            android:id="@+id/team_a_red"
+            style="@style/RedButton"
+            android:layout_marginRight="30dp"
+            android:layout_toLeftOf="@+id/team_a_yellow"
+            android:onClick="oneRedCardForTeamA" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Reset"
+            android:layout_marginRight="50dp"
+            android:layout_toLeftOf="@+id/team_b_red" />
+
+    </RelativeLayout>
+
+</LinearLayout>

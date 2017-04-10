@@ -1,0 +1,92 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LayoutMain" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@drawable/lawnland</item>
+        <item name="android:weightSum">1</item>
+    </style>
+
+    <style name="RelativeLayTopMain" >
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="RelativeLayBotMain" >
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+
+    <style name="YellowButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">@color/yellowCard</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:text"></item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="RedButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:background">#FF0000</item>
+        <item name="android:textSize">42sp</item>
+        <item name="android:text"></item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="Reset" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:text">RESET</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:onClick">resetPoints</item>
+    </style>
+
+    <style name="TeamAText" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+    <style name="TeamBText" >
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:inputType">textCapWords</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+
+
+    <style name="Score">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">0</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">120sp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:layout_marginTop">16dp</item>
+    </style>
+
+</resources>

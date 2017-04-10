@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Football Score Keeper App</string>
+    <string name="team_one_name">Team A</string>
+    <string name="team_two_name">Team B</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    style="@style/LayoutMain"
+    tools:context="com.example.android.footballscorekeeperapp.MainActivity">
+
+    <RelativeLayout
+        style="@style/RelativeLayTopMain"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/team_a_yellow"
+            style="@style/YellowButton"
+            android:onClick="oneYellowCardForTeamA"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/team_a_red"
+            style="@style/RedButton"
+            android:layout_alignParentRight="true"
+            android:layout_margin="15dp"
+            android:onClick="oneRedCardForTeamA" />
+
+        <EditText
+            android:id="@+id/TeamA_EditText"
+            style="@style/TeamAText"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:hint="@string/team_one_name"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/team_a_score"
+        style="@style/Score"
+        android:onClick="onePointForTeamA" />
+
+
+    <Button
+        android:id="@+id/team_b_score"
+        style="@style/Score"
+        android:onClick="onePointForTeamB" />
+
+    <RelativeLayout
+        style="@style/RelativeLayBotMain">
+
+        <Button
+            android:id="@+id/team_b_yellow"
+            style="@style/YellowButton"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="15dp"
+            android:onClick="oneYellowCardForTeamB" />
+
+        <Button
+            android:id="@+id/team_b_red"
+            style="@style/RedButton"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="15dp"
+            android:onClick="oneRedCardForTeamB" />
+
+        <Button
+            android:id="@+id/button"
+            style="@style/Reset" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/TeamB_EditText"
+        style="@style/TeamBText"
+        android:hint="@string/team_two_name"
+        android:layout_below="@id/button"/>
+
+</LinearLayout>
